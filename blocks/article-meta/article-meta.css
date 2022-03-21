@@ -1,0 +1,12 @@
+main .article-meta > div {
+  display: inline-flex;
+}
+
+main .article-meta > div > div:nth-child(2) {
+  padding-left: .5em;
+}
+
+main .article-meta > div > div:nth-child(2)::before {
+  content: "•";
+  padding-right: .5em;
+}
